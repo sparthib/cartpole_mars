@@ -19,6 +19,13 @@ MAPS = {
         "FFFH",
         "HFFG"
     ],
+    
+    "4x4_flipped": [
+        "FFFS",
+        "HFHF",
+        "HFFF",
+        "GFFH"
+    ],
     "8x8": [
         "SFFFFFFF",
         "FHFHFFFF",
