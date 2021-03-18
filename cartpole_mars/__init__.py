@@ -5,5 +5,8 @@ register(
     id='cartpolemars-v0',
     entry_point='cartpole_mars.envs:CartPoleEnv')
 
-# tags={'wrapper_config.TimeLimit.max_episode_steps': 500},
-#reward_threshold=475.0
+register(
+    id='FrozenLakeNotSlippery-v0',
+    entry_point='cartpole_mars.envs:FrozenLakeEnv',
+    kwargs={'map_name' : '8x8', 'is_slippery': False},
+)
